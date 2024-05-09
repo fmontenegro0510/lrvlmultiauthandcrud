@@ -12,7 +12,7 @@ Este repositorio contiene un proyecto de Laravel 10 que implementa un sistema de
 
 1. Clona el repositorio:
 ```bash
-    git clone https://github.com/tu-usuario/laravel10-multi-auth.git
+    git clone https://github.com/fmontenegro0510/lrvlmultiauthandcrud.git
 ```
 
 2. Instala las dependencias con Composer:
@@ -23,12 +23,12 @@ Copia el archivo .env.example y renómbralo a .env:
 cp .env.example .env
 ```
 
-## Genera una nueva clave de aplicación:
+3. Genera una nueva clave de aplicación:
 
 ```bash
 php artisan key:generate
 ```
-## Configura la base de datos en el archivo .env y ejecuta las migraciones:
+4. Configura la base de datos en el archivo .env y ejecuta las migraciones:
 ```bash
 php artisan migrate
 ```
