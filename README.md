@@ -11,24 +11,29 @@ Este repositorio contiene un proyecto de Laravel 10 que implementa un sistema de
 ## Instalación
 
 1. Clona el repositorio:
-```bash
-    git clone https://github.com/fmontenegro0510/lrvlmultiauthandcrud.git
+```bash 
+git clone https://github.com/fmontenegro0510/lrvlmultiauthandcrud.git
 ```
 
 2. Instala las dependencias con Composer:
 
 ```bash
 composer install
-Copia el archivo .env.example y renómbralo a .env:
+```
+
+3.Copia el archivo .env.example y renómbralo a .env:
+
+```bash
 cp .env.example .env
 ```
 
-3. Genera una nueva clave de aplicación:
+4. Genera una nueva clave de aplicación:
 
 ```bash
 php artisan key:generate
 ```
-4. Configura la base de datos en el archivo .env y ejecuta las migraciones:
+
+5. Configura la base de datos en el archivo .env y ejecuta las migraciones:
 ```bash
 php artisan migrate
 ```
